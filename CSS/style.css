@@ -1,6 +1,7 @@
 /* Root Styles */
 :root {
     --orange: #FF5400;
+    --font-family: "Mulish", sans-serif;
 }
 
 /* Navigation Styles */
@@ -9,11 +10,16 @@
     justify-content: space-between;
 }
 
+.menu {
+    display: flex;
+}
+
 .list {
     list-style: none;
     display: flex;
     gap: 15px;
     color: #424247;
+    font-family: var(--font-family);
     font-size: 18px;
     font-weight: bold;
 }
