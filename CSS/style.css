@@ -1,0 +1,23 @@
+/* Root Styles */
+:root {
+    --orange: #FF5400;
+}
+
+/* Navigation Styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#orange-font {
+    color: var(--orange);
+}
