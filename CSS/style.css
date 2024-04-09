@@ -234,3 +234,99 @@ body {
 .bandarban {
     background-image: url(../images/Rectangle\ 10.png);
 }
+
+/* why choose us styles */
+.cause-container {
+    margin-bottom: 100px;
+}
+
+.choose-us-text {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.choose-us-text h1 {
+    color: #131318;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.choose-us-text>p {
+    color: #131318;
+    opacity: 0.7;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.hotels {
+    background: lightcyan;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.hotels h3 {
+    color: #131318;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hotels p {
+    color: #5A5A5D;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.services {
+    background-color: lightgray;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.services h3 {
+    color: #131318;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.services p {
+    color: #5A5A5D;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+}
+
+.best-price {
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.best-price h3 {
+    color: #131318;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.best-price p {
+    color: #5A5A5D;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
