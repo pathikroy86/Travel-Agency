@@ -494,3 +494,83 @@ body {
 .right-side img {
     width: 100%;
 }
+
+/* subscription styles */
+.subscription-container {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.newsletter {
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.newsletter h2 {
+    color: #131318;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.newsletter p {
+    color: #5A5A5D;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.newsletter input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #131318;
+    opacity: 0.3;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF5400;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.image {
+    width: 100%;
+    position: relative;
+}
+
+.save {
+    padding: 10px 20px;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(275px, -260px) rotate(-20deg);
+}
+
+.save p {
+    color: white;
+    font-family: var(--font-family);
+    font-size: 24px;
+}
+
+.save h4 {
+    color: white;
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 700;
+}
