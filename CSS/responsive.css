@@ -3,6 +3,10 @@
         width: 100%;
     }
 
+    .banner-container {
+        margin-bottom: 20px;
+    }
+
     .menu-icon {
         display: block;
         margin-top: 30%;
@@ -47,7 +51,7 @@
     .popular-tour {
         flex-direction: column;
         gap: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 }
 
