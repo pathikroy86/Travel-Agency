@@ -53,6 +53,27 @@
         gap: 10px;
         margin-bottom: 20px;
     }
+
+    .destination-choice-container {
+        margin-bottom: 20px;
+    }
+
+    .text-container {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .first-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .third-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media only screen and (min-width: 601px) {}
