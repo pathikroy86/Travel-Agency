@@ -74,6 +74,22 @@
     .third-row {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .cause-container {
+        margin-bottom: 20px;
+    }
+
+    .choose-us-text {
+        width: 90%;
+    }
+
+    .first {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .best-price {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 601px) {}
