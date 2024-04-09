@@ -574,3 +574,44 @@ body {
     font-size: 32px;
     font-weight: 700;
 }
+
+/* footer styles */
+footer {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #13131812;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-text span {
+    margin-left: 10px;
+    color: #FF5400;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #5A5A5D;
+}
+
+footer p {
+    color: #424247;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
