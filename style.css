@@ -51,7 +51,7 @@ body {
 
 /* Banner Styles */
 .banner-container {
-    background-image: url("../images/banner.png");
+    background-image: url("images/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -195,11 +195,11 @@ body {
 }
 
 .maldives {
-    background-image: url(../images/Rectangle\ 5.png);
+    background-image: url("images/Rectangle\ 5.png");
 }
 
 .indonesia {
-    background-image: url(../images/Rectangle\ 8.png);
+    background-image: url("images/Rectangle\ 8.png");
 }
 
 .second-row {
@@ -210,15 +210,15 @@ body {
 }
 
 .srilanka {
-    background-image: url(../images/Rectangle\ 6.png);
+    background-image: url("images/Rectangle\ 6.png");
 }
 
 .north-america {
-    background-image: url(../images/Rectangle\ 7.png);
+    background-image: url("images/Rectangle\ 7.png");
 }
 
 .kashmir {
-    background-image: url(../images/Rectangle\ 9.png);
+    background-image: url("images/Rectangle\ 9.png");
 }
 
 .third-row {
@@ -228,11 +228,11 @@ body {
 }
 
 .bangladesh {
-    background-image: url(../images/Rectangle\ 11.png);
+    background-image: url("images/Rectangle\ 11.png");
 }
 
 .bandarban {
-    background-image: url(../images/Rectangle\ 10.png);
+    background-image: url("images/Rectangle\ 10.png");
 }
 
 /* why choose us styles */
@@ -354,7 +354,7 @@ body {
 }
 
 .santorini-container {
-    background-image: url(../images/Group\ 39.png);
+    background-image: url("images/Group\ 39.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 40px;
@@ -424,7 +424,7 @@ body {
 }
 
 .cox-container {
-    background-image: url(../images/Group\ 40.png);
+    background-image: url("images/Group\ 40.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 40px;
@@ -433,7 +433,7 @@ body {
 }
 
 .bandarban-container {
-    background-image: url(../images/Group\ 40089.png);
+    background-image: url("images/Group\ 40089.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 40px;
@@ -550,6 +550,10 @@ body {
     position: relative;
 }
 
+.image img {
+    width: 100%;
+}
+
 .save {
     padding: 10px 20px;
     background-color: #FF5400;
@@ -559,7 +563,7 @@ body {
     width: 30%;
     position: absolute;
     z-index: 1;
-    transform: translate(275px, -260px) rotate(-20deg);
+    transform: translate(58%, -135%) rotate(-20deg);
 }
 
 .save p {
