@@ -90,6 +90,22 @@
     .best-price {
         width: 100%;
     }
+
+    .package {
+        width: 90%;
+    }
+
+    .btn-packages {
+        margin-bottom: 20px;
+    }
+
+    .memories-container {
+        margin-bottom: 20px;
+    }
+
+    .collage-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media only screen and (min-width: 601px) {}
